@@ -1,0 +1,4 @@
+npm i @yext/studio
+create studio.config.ts
+update package.json to add studio script
+

@@ -1,0 +1,16 @@
+{
+  "name": "test-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "studio": "npm run features && yext pages generate-test-data -a && studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@yext/studio": "^0.8.1"
+  }
+}
