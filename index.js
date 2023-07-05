@@ -29,7 +29,7 @@ const main = () => {
 
   process.chdir(dir);
 
-  runCommand('npm install @yext/studio');
+  runCommand('npm install @yext/studio-plugin@latest @yext/studio@latest');
 
   const studioScript =
     runCommand(`npx npm-add-script -k "studio" -v "npm run features && yext pages generate-test-data -a && studio"`);
